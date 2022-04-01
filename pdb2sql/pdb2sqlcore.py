@@ -133,7 +133,7 @@ class pdb2sql(pdb2sql_base):
                 continue
 
             # check pdb line format
-            line = pdb2sql._format_pdb_linelength(line)
+            # line = pdb2sql._format_pdb_linelength(line)
 
             # browse all attribute of each atom
             at = ()
